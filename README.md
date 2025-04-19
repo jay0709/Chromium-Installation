@@ -59,7 +59,7 @@ services:
       - PUID=1000
       - PGID=1000
       - TZ=Europe/London
-      - CHROME_CLI= https://dashboard.layeredge.io/  #optional
+      - CHROME_CLI= https://google.com/  #optional
     volumes:
       - /root/chromium/config:/config
     ports:
